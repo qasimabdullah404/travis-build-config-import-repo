@@ -9,5 +9,4 @@ before_install:
 import:
   source: qasimabdullah404/travis-build-config-import-file:before_install.yml@main
 
-script:
-  true
+script: true
