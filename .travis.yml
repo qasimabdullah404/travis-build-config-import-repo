@@ -7,6 +7,6 @@ before_install:
   - echo 'In repo..'
 
 import:
-  - source: qasimabdullah404/travis-build-config-import-file:before_install.yml@main
+  source: qasimabdullah404/travis-build-config-import-file:before_install.yml@main
 
 script: true
