@@ -8,6 +8,6 @@ before_install:
 
 import:
   - source: qasimabdullah404/travis-build-config-import-file:before_install.yml@main
-    mode: deep_merge_append
+    mode: deep_merge_prepend
 
 script: true
