@@ -6,6 +6,7 @@ language: generic
 before_install:
   - echo 'In repo..'
 
-import: qasimabdullah404/travis-build-config-import-file:before_install.yml@main
+import:
+  - source: qasimabdullah404/travis-build-config-import-file:before_install.yml@main
 
 script: true
