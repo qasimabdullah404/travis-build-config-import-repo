@@ -1,8 +1,9 @@
+version: ~> 1.0
 os: linux
 dist: xenial
 language: generic
 
-import: curl <(https://raw.githubusercontent.com/qasimabdullah404/travis-build-config-import-file/main/before_install.yml)
+import: qasimabdullah404/travis-build-config-import-file:before_install.yml@main
 
 before_install:
   - echo 'In repo..'
