@@ -1,0 +1,10 @@
+os: linux
+dist: xenial
+language: generic
+
+import: qasimabdullah404/travis-build-config-import-file/main/before_install.yml@main
+
+before_install:
+  - echo 'In repo..'
+
+script: true
